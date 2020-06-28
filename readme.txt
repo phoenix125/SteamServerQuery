@@ -14,10 +14,11 @@ SteamServerQuery "127.0.0.1:30001"
 	Ex: If your server's query port is 30000, use 30001
 
 ----- OUTPUT -----
-Creates a simple CSV file containing the entire reponse from a query request.
+Creates a simple CSV file containing the entire response from a Steam query request.
 - Note: Output from servers vary depending on server.  Many fields will be blank.
 - Visit https://developer.valvesoftware.com/wiki/Server_queries for details of reponse.
 
+=================================
 Sample SteamServerQuery.csv file:
 =================================
 Raw,0xFFFFFFFF49115078313235205465737420536572766572000045475300456D707972696F6E202D2047616C616374696320537572766976616C00000000080064770000333433343131323000B14E7500140667CD3A4001303B313B300090D8050000000000
@@ -42,13 +43,13 @@ Comment,Thank you. Visit https://github.com/phoenix125 for updates and/or more p
 Thank you!
 
 ----- DOWNLOAD LINKS -----
-Direct Download Link: http://www.phoenix125.com/share/7dtdMapFileAnalyzer/7dtdMapFileAnalyzer.zip
-Source Code (AutoIT): https://github.com/phoenix125/7dtdMapFileAnalyzer
-GitHub:	              https://github.com/phoenix125/7dtdMapFileAnalyzer
+Direct Download Link: http://www.phoenix125.com/share/steamserverquery/SteamServerQuery.zip
+Source Code (AutoIT): http://www.phoenix125.com/share/steamserverquery/SteamServerQuery_v1.0.au3
+GitHub:	              https://github.com/phoenix125/SteamServerQuery
 
 Website: http://www.Phoenix125.com
 Discord: http://discord.gg/EU7pzPs
 Forum:   https://phoenix125.createaforum.com/index.php
 
 ----- VERSION HISTORY -----
-(2020-06-28) v1.0.0 Initial release
+(2020-06-28) v1.0 Initial release
