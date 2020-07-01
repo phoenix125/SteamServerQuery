@@ -44,7 +44,7 @@ Thank you!
 
 ----- DOWNLOAD LINKS -----
 Direct Download Link: http://www.phoenix125.com/share/steamserverquery/SteamServerQuery.zip
-Source Code (AutoIT): http://www.phoenix125.com/share/steamserverquery/SteamServerQuery_v1.0.au3
+Source Code (AutoIT): http://www.phoenix125.com/share/steamserverquery/SteamServerQuery.au3
 GitHub:	              https://github.com/phoenix125/SteamServerQuery
 
 Website: http://www.Phoenix125.com
