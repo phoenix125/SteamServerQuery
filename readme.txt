@@ -1,16 +1,39 @@
 SteamServerQuery - A small Windows commandline utility that outputs Steam game server query request data to a CSV file
-- Latest version: SteamServerQuery_v1.2 (2020-06-30)
+- Latest version: SteamServerQuery_v1.3 (2020-07-08)
 - By Phoenix125 | http://www.Phoenix125.com | http://discord.gg/EU7pzPs | kim@kim125.com
 
 ----- FEATURES -----
-- Writes a CSV file containing all output data from a Steam Game Server Query Request
-- Data includes number of online players, max players, and server name
+- Run via command line
+- Gets the response of a Steam Game Server Query.
+- Data aquired includes: number of online players, max players, server name, map name, and more.
+- Outputs the data to any of the following:
+	- CSV with or without lables
+	- Text File with or without labels
+	- Command line output with or without labels
 
 ----- INSTRUCTIONS -----
-- In Windows command prompt, execute SteamServerQuery "ip:port"
-ex:
-SteamServerQuery "127.0.0.1:30001"
-- NOTICE! For most servers, use the server's assigned query port +1
+- Run in Command Prompt
+
+Use: SteamServerQuery {options} IP:port
+  or: SteamServerQuery {options} URL:port
+
+-h = Displays this help text
+-pw = Print output to commandline with labels
+-po = Print output to commandline WITHOUT labels
+-tw = Write output to txt file with labels to [E:\\SteamServerQueryLabel.txt]
+-to = Write output to txt file WITHOUT labels to [E:\\SteamServerQueryNOLabel.txt]
+-cw = Write output to csv file with Labels to [E:\\SteamServerQueryLabel.csv]
+-co = Write output to csv file WITHOUT labels to [E:\\SteamServerQueryNOLabel.csv]
+
+Example 1: SteamServerQuery -p -c 127.0.0.1:26500
+Example 2: SteamServerQuery -t phoenix125.com:26500
+
+NOTICE! For many servers, use Query Port +1
+   Ex: If query port is 30000, use 30001
+
+Thank you. Visit https://github.com/phoenix125 for updates and/or more p
+
+- NOTICE! For many servers, use the server's assigned query port +1
 	Ex: If your server's query port is 30000, use 30001
 
 ----- OUTPUT -----
@@ -18,9 +41,9 @@ Creates a simple CSV file containing the entire response from a Steam query requ
 - Note: Output from servers vary depending on server.  Many fields will be blank.
 - Visit https://developer.valvesoftware.com/wiki/Server_queries for details of reponse.
 
-=================================
-Sample SteamServerQuery.csv file:
-=================================
+==========================
+Sample Output with Labels
+==========================
 Raw,0xFFFFFFFF49115078313235205465737420536572766572000045475300456D707972696F6E202D2047616C616374696320537572766976616C00000000080064770000333433343131323000B14E7500140667CD3A4001303B313B300090D8050000000000
 Name,Px125 Test Server
 Map,
@@ -52,10 +75,16 @@ Discord: http://discord.gg/EU7pzPs
 Forum:   https://phoenix125.createaforum.com/index.php
 
 ----- VERSION HISTORY -----
+(2020-07-08) v1.3 Added many more options
+- Added: URL or IP can now be used.
+- Added: Help information added.
+- Added: Optional output data to TXT CSV and commandline, with or without header data.
+- Fixed: Several minor bug fixes.
+
 (2020-06-30) v1.2 Bugfix
-- Fix: The online/max player counts and gameID were not properly being converted to decimal.
+- Fixed: The online/max player counts and gameID were not properly being converted to decimal.
 
 (2020-06-28) v1.1 Bugfix
-- Fix: When the Pipe symbol | is in title, it would cause an error.
+- Fixed: When the Pipe symbol | is in title, it would cause an error.
 
 (2020-06-28) v1.0 Initial release
