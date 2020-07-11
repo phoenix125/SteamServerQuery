@@ -31,7 +31,7 @@ Example 2: SteamServerQuery -to phoenix125.com:26500
 NOTICE! For many servers, use Query Port +1
    Ex: If query port is 30000, use 30001
 
-Thank you. Visit https://github.com/phoenix125 for updates and/or more p
+Thank you. Visit https://github.com/phoenix125 for updates and/or more programs.
 
 - NOTICE! For many servers, use the server's assigned query port +1
 	Ex: If your server's query port is 30000, use 30001
