@@ -49,8 +49,8 @@ Local $tHelp = 'Use: SteamServerQuery {options} IP:port' & @CRLF & _
 		'-to = Write output to txt file WITHOUT labels to [' & $fTXTo & ']' & @CRLF & _
 		'-cw = Write output to csv file with Labels to [' & $fCSVw & ']' & @CRLF & _
 		'-co = Write output to csv file WITHOUT labels to [' & $fCSVo & ']' & @CRLF & @CRLF & _
-		'Example 1: SteamServerQuery -p -c 127.0.0.1:26500' & @CRLF & _
-		'Example 2: SteamServerQuery -t phoenix125.com:26500' & @CRLF & @CRLF & _
+		'Example 1: SteamServerQuery -pw -co 127.0.0.1:26500' & @CRLF & _
+		'Example 2: SteamServerQuery -tw phoenix125.com:26500' & @CRLF & @CRLF & _
 		'NOTICE! For many servers, use Query Port +1' & @CRLF & _
 		'   Ex: If query port is 30000, use 30001' & @CRLF & @CRLF & _
 		'Thank you. Visit https://github.com/phoenix125 for updates and/or more programs.' & @CRLF
