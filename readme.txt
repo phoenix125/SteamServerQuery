@@ -7,7 +7,7 @@ SteamServerQuery - A small Windows commandline utility that outputs Steam game s
 - Gets the response of a Steam Game Server Query.
 - Data aquired includes: number of online players, max players, server name, map name, and more.
 - Outputs the data to any of the following:
-	- CSV with or without lables
+	- CSV with or without labels
 	- Text File with or without labels
 	- Command line output with or without labels
 
