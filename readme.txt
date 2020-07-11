@@ -25,8 +25,8 @@ Use: SteamServerQuery {options} IP:port
 -cw = Write output to csv file with Labels to [E:\\SteamServerQueryLabel.csv]
 -co = Write output to csv file WITHOUT labels to [E:\\SteamServerQueryNOLabel.csv]
 
-Example 1: SteamServerQuery -p -c 127.0.0.1:26500
-Example 2: SteamServerQuery -t phoenix125.com:26500
+Example 1: SteamServerQuery -pw -co 127.0.0.1:26500
+Example 2: SteamServerQuery -to phoenix125.com:26500
 
 NOTICE! For many servers, use Query Port +1
    Ex: If query port is 30000, use 30001
