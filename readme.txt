@@ -1,4 +1,4 @@
-SteamServerQuery - A small Windows commandline utility that outputs Steam game server query request data to a screen,CSV, or text file
+SteamServerQuery - A small Windows commandline utility that outputs Steam game server query request data to screen, CSV, or text file.
 - Latest version: SteamServerQuery_v1.3 (2020-07-08)
 - By Phoenix125 | http://www.Phoenix125.com | http://discord.gg/EU7pzPs | kim@kim125.com
 
