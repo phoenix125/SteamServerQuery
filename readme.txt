@@ -1,5 +1,5 @@
 SteamServerQuery - A small Windows commandline utility that outputs Steam game server query request data to screen, CSV, or text file.
-- Latest version: SteamServerQuery_v1.3 (2020-07-08)
+- Latest version: SteamServerQuery_v1.4 (2020-08-11)
 - By Phoenix125 | http://www.Phoenix125.com | http://discord.gg/EU7pzPs | kim@kim125.com
 
 ----- FEATURES -----
@@ -58,7 +58,7 @@ Environment,w
 Visibility,0
 VAC,0
 Version,34341120
-Extra Data Field,Nu~g�:@0;1;0~��~~~~~
+Extra Data Field,Nu~��g�:@�0;1;0~���~~~~~
 Note,In the Extra Data Field only: all hex characters [nul] 0x00 replaced with [~] 0x7E
 Comment,Thank you. Visit https://github.com/phoenix125 for updates and/or more programs.
 =================================
@@ -75,6 +75,9 @@ Discord: http://discord.gg/EU7pzPs
 Forum:   https://phoenix125.createaforum.com/index.php
 
 ----- VERSION HISTORY -----
+(2020-08-11) v1.4 Fixed Error
+- Fixed: Line 2667 error (Thanks to Linebeck for reporting)
+
 (2020-07-08) v1.3 Added many more options
 - Added: URL or IP can now be used.
 - Added: Help information added.

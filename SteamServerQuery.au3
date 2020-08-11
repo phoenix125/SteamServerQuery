@@ -1,11 +1,11 @@
 #Region ;**** Directives created by AutoIt3Wrapper_GUI ****
 #AutoIt3Wrapper_Icon=Resources\phoenix_5Vq_icon.ico
-#AutoIt3Wrapper_Outfile=Builds\SteamServerQuery_v1.3.exe
+#AutoIt3Wrapper_Outfile=Builds\SteamServerQuery_v1.4.exe
 #AutoIt3Wrapper_Res_Comment=https://github.com/phoenix125
 #AutoIt3Wrapper_Res_Description=Writes a CSV file containing all output data from a Steam Game Server Query Request
-#AutoIt3Wrapper_Res_Fileversion=1.3.0.0
+#AutoIt3Wrapper_Res_Fileversion=1.4.0.0
 #AutoIt3Wrapper_Res_ProductName=SteamServerQuery
-#AutoIt3Wrapper_Res_ProductVersion=1.3.0
+#AutoIt3Wrapper_Res_ProductVersion=1.4.0
 #AutoIt3Wrapper_Res_CompanyName=http://www.Phoenix125.com
 #AutoIt3Wrapper_Res_LegalCopyright=http://www.Phoenix125.com
 #AutoIt3Wrapper_Res_Language=1033
@@ -123,7 +123,7 @@ Func _WriteTxt($tTXTr, $tErrTF = False)
 			Next
 			Local $tTXTw = _ArrayToCSV($2D_Array)
 		Else
-			$tTXTw = $tErr & $tTXTr
+			$tTXTw = $tErrco & $tTXTr
 		EndIf
 		If $tTXTw = "" Then
 			$tTXTw = "ERROR,No response from server at IP:" & $tIP & " Port:" & $tPort
